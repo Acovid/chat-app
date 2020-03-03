@@ -1,0 +1,4 @@
+applications:
+- name: chat-app-acovid
+memory: 512M
+instances: 1
