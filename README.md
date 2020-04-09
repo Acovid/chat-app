@@ -1,6 +1,6 @@
 This is a chatroom app. You can use it to chat with many people simultaneously.
 
-The app was written in node.js for learning and demo purposes. It uses Google Maps to display a location. It does not use a database or other persistent storage.
+The app was written in node.js for learning and demo purposes. It uses Google Maps to display a location. The app does not use a database or any other persistent data, it is all in main memory. Refreshing your browser will restart the app.
 
 ## Usage
 Start using the app this way:
@@ -42,7 +42,7 @@ Start using the app this way:
 ## Deploy the app as a Docker container
 
 You can get the Docker image for this app in one of two ways:
-   *  In [Docker hub](https://hub.docker.com), pull the image **acovid/chat-app**
+   *  In [Docker hub](https://hub.docker.com/r/acovid/chat-app), pull the image **acovid/chat-app**
    *  Build your own image using Dockerfile (see instructions below) 
 
 1. Building your own Docker image:
