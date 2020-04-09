@@ -36,7 +36,7 @@ Start using the app this way:
    `ibmcloud target -o <your_organization -s <your_space>` 
 4. Edit the file **manifest.yml** to provide your unique application name, for example *chat-app-yourname*
 5. Deploy the app with command 
-   `ibmcloud app push`
+   `ibmcloud app push` 
     The deployment data will be read from the manifest.yml.
 
 ## Deploy the app as a Docker container
