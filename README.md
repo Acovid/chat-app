@@ -4,9 +4,9 @@ The app was written in node.js for learning and demo purposes. It uses Google Ma
 
 ## Content
 
-<a href="#using-this-app">Using this appge</a>
-<a href="#deploying-the-app-locally">Deploying the app locally</a>
-<a href="#deployment-on-ibm-cloud">Deployment on IBM Cloud</a>
+<a href="#using-this-app">Using this app</a>  
+<a href="#deploying-the-app-locally">Deploying the app locally</a>  
+<a href="#deployment-on-ibm-cloud">Deployment on IBM Cloud</a>  
 <a href="#deploy-the-app-as-a-docker-container">Deploy the app as a Docker container</a>
 
 ## Using this app
