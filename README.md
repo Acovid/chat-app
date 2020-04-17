@@ -2,7 +2,14 @@ This is a chatroom app. You can use it to chat with many people simultaneously.
 
 The app was written in node.js for learning and demo purposes. It uses Google Maps to display a location. The app does not use a database or any other persistent data, it is all in main memory. Refreshing your browser will restart the app.
 
-## Usage
+## Content
+
+<a href="#using-this-app">Using this appge</a>
+<a href="#deploying-the-app-locally">Deploying the app locally</a>
+<a href="#deployment-on-ibm-cloud">Deployment on IBM Cloud</a>
+<a href="#deploy-the-app-as-a-docker-container">Deploy the app as a Docker container</a>
+
+## Using this app
 
 Start using the app this way:
 
@@ -31,7 +38,7 @@ Start using the app this way:
 5. Start the app with command `npm start`
 6. Open the app by typing in your web browser: `localhost:3000`
 
-## Quick deployment to cloud using IBM Cloud
+## Deployment to IBM Cloud
 
 1. Do first four steps from previous section.
 2. Login to IBM Cloud with command
