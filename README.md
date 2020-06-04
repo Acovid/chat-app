@@ -38,7 +38,7 @@ Start using the app this way:
 5. Start the app with command `npm start`
 6. Open the app by typing in your web browser: `localhost:3000`
 
-## Deployment to IBM Cloud
+## Deployment to IBM Cloud - Cloud Foundry 
 
 1. Do first four steps from previous section.
 2. Login to IBM Cloud with command
@@ -49,10 +49,10 @@ Start using the app this way:
    `ibmcloud target -o <your_organization -s <your_space>`
 4. Edit the file **manifest.yml** to provide your unique application name, for example _chat-app-yourname_
 5. Deploy the app with command
-   `ibmcloud app push`
+   `ibmcloud app push -c "npm start"`
    The deployment data will be read from the manifest.yml.
 
-## Deploy the app as a Docker container
+## Deploy app as a Docker container
 
 You can get the Docker image for this app in one of two ways:
 
