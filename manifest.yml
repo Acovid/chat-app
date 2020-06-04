@@ -1,6 +1,6 @@
 applications:
   - name: chat-app-acovid
 memory: 256M
-instances: 2
+instances: 1
 buildpack: nodejs_buildpack
 command: npm start
