@@ -7,7 +7,7 @@ The app was written in node.js for learning and demo purposes. It uses Google Ma
 <a href="#using-this-app">Using this app</a>  
 <a href="#deploying-the-app-locally">Deploying the app locally</a>  
 <a href="#deployment-to-kubernetes-on-ibm-cloud">Deployment to Kubernetes on IBM Cloud</a>  
-<a href="#deployment-to-ibm-cloud-foundry">Deployment to IBM Cloud Foundry</a>  
+<a href="#deploy-to-ibm-cloud-foundry">Deploy to IBM Cloud Foundry</a>  
 <a href="#deploy-app-as-a-docker-container">Deploy app as a Docker container</a>
 
 ## Using this app
