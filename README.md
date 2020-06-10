@@ -6,6 +6,7 @@ The app was written in node.js for learning and demo purposes. It uses Google Ma
 
 <a href="#using-this-app">Using this app</a>  
 <a href="#deploying-the-app-locally">Deploying the app locally</a>  
+<a href="#deploying-to-kubernetes-on-ibm-cloud">Deployment to Kubernetes on IBM Cloud</a>
 <a href="#deployment-on-ibm-cloud">Deployment on IBM Cloud</a>  
 <a href="#deploy-the-app-as-a-docker-container">Deploy the app as a Docker container</a>
 
@@ -38,7 +39,11 @@ Start using the app this way:
 5. Start the app with command `npm start`
 6. Open the app by typing in your web browser: `localhost:3000`
 
-## Deployment to IBM Cloud - Cloud Foundry 
+## Deployment to Kubernetes on IBM Cloud
+
+Refer to instructions in file "Demo scenario for Deployment to Kubernetes on IBM Cloud.pdf"
+
+## Deployment to IBM Cloud - Cloud Foundry
 
 1. Do first four steps from previous section.
 2. Login to IBM Cloud with command
