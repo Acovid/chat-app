@@ -41,7 +41,8 @@ Start using the app this way:
 
 ## Deployment to Kubernetes on IBM Cloud
 
-Refer to instructions in file "Demo scenario for Deployment to Kubernetes on IBM Cloud.pdf"
+Refer to instructions in file 
+<a href="[#deployment-to-kubernetes-on-ibm-cloud](https://github.com/Acovid/chat-app/blob/master/Demo%20scenario%20for%20Deployment%20to%20Kubernetes%20on%20IBM%20Cloud.pdf)">Deployment to Kubernetes on IBM Cloud</a>
 
 ## Deployment to IBM Cloud - Cloud Foundry
 
