@@ -1,4 +1,5 @@
-FROM node:12.6-alpine
+# FROM node:12.6-alpine
+FROM node:12.19.0-alpine3.12
 COPY . /
 RUN ls -la
 RUN npm install
