@@ -6,8 +6,9 @@ The app was written in node.js for learning and demo purposes. It uses Google Ma
 
 <a href="#using-this-app">Using this app</a>  
 <a href="#deploying-the-app-locally">Deploying the app locally</a>  
-<a href="#deployment-on-ibm-cloud">Deployment on IBM Cloud</a>  
-<a href="#deploy-the-app-as-a-docker-container">Deploy the app as a Docker container</a>
+<a href="#deployment-to-kubernetes-on-ibm-cloud">Deployment to Kubernetes on IBM Cloud</a>  
+<a href="#deploy-to-ibm-cloud-foundry">Deploy to IBM Cloud Foundry</a>  
+<a href="#deploy-app-as-a-docker-container">Deploy app as a Docker container</a>
 
 ## Using this app
 
@@ -38,7 +39,12 @@ Start using the app this way:
 5. Start the app with command `npm start`
 6. Open the app by typing in your web browser: `localhost:3000`
 
-## Deployment to IBM Cloud
+## Deployment to Kubernetes on IBM Cloud
+
+Refer to instructions in file 
+<a href="https://github.com/Acovid/chat-app/blob/master/Demo%20scenario%20for%20Deployment%20to%20Kubernetes%20on%20IBM%20Cloud.pdf">Deployment to Kubernetes on IBM Cloud.</a>
+
+## Deployment to IBM Cloud - Cloud Foundry
 
 1. Do first four steps from previous section.
 2. Login to IBM Cloud with command
@@ -49,10 +55,10 @@ Start using the app this way:
    `ibmcloud target -o <your_organization -s <your_space>`
 4. Edit the file **manifest.yml** to provide your unique application name, for example _chat-app-yourname_
 5. Deploy the app with command
-   `ibmcloud app push`
+   `ibmcloud app push -c "npm start"`
    The deployment data will be read from the manifest.yml.
 
-## Deploy the app as a Docker container
+## Deploy app as a Docker container
 
 You can get the Docker image for this app in one of two ways:
 

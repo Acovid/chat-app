@@ -1,4 +1,12 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Acovid/chat-app"
+  },
+  "engines": {
+    "node": "=12",
+    "npm": "=6"
+  },
   "name": "chat-app",
   "version": "1.0.0",
   "main": "index.js",
