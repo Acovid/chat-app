@@ -40,7 +40,7 @@ input {
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #5cbf69;
     border: none;
     color: white;
     font-size: 16px;
@@ -55,6 +55,7 @@ button:disabled {
     cursor: default;
     background: #7c5cbf94;
 }
+
 
 /* Join Page Styles */
 
@@ -83,6 +84,7 @@ button:disabled {
     width: 100%;
 }
 
+
 /* Chat Page Layout */
 
 .chat {
@@ -96,6 +98,7 @@ button:disabled {
     width: 225px;
     overflow-y: scroll
 }
+
 
 /* Chat styles */
 
@@ -111,6 +114,7 @@ button:disabled {
     padding: 24px 24px 0 24px;
     overflow-y: scroll;
 }
+
 
 /* Message Styles */
 
@@ -132,6 +136,7 @@ button:disabled {
 .message a {
     color: #0070CC;
 }
+
 
 /* Message Composition Styles */
 
@@ -159,6 +164,7 @@ button:disabled {
 .compose button {
     font-size: 14px;
 }
+
 
 /* Chat Sidebar Styles */
 
