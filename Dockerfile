@@ -6,6 +6,6 @@ LABEL maintainer="Aco Vidovic"
 COPY . /
 RUN ls -la
 RUN npm install
-ENV PORT 3000
-EXPOSE 3000
+ENV PORT 8080
+EXPOSE 8080
 CMD ["node","src/index.js"]
